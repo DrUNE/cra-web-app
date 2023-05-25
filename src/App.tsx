@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { PropsPanel } from "@drune/naive-soursemapped-panel";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <PropsPanel className="App-props-panel"></PropsPanel>
       </header>
     </div>
   );
